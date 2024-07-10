@@ -1,0 +1,135 @@
+.SearchForm {
+  width: 100vw;
+  background-color: rgb(44, 108, 108);
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+.header {
+  width: 100vw;
+  background-color: rgb(44, 108, 108);
+  padding: 15px;
+}
+h1 {
+  text-align: center;
+  color: rgba(217, 217, 217, 0.58);
+}
+.button {
+  color: rgb(44, 108, 108);
+}
+.back {
+  position: absolute;
+  left: 15px;
+  top: 25px;
+  z-index: 1;
+}
+.input {
+  padding: 12px;
+  margin: auto;
+  width: 300px;
+  border-radius: 3px;
+  border-color: transparent;
+}
+.card {
+  width: 200px;
+  height: 300px;
+}
+.card_div {
+  box-sizing: border-box;
+  width: 200px;
+  height: 315px;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid rgb(44, 108, 108);
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  cursor: pointer;
+  transition: all 0.5s;
+  align-items: center;
+  text-align: center;
+  font-weight: bolder;
+  color: black;
+}
+.card_div:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+
+.card_img {
+  padding: 5px;
+  width: 190px;
+  height: 200px;
+}
+.list {
+  margin: 0 auto;
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 25px;
+  padding: 20px 0px;
+}
+
+.pageButtons {
+  text-align: center;
+  gap: 15px;
+}
+/*movieDetail*/
+.movieDetail {
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+  display: grid;
+  grid-template-columns: 35vw 50vw;
+  text-align: start;
+  padding: 100px;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid rgb(44, 108, 108);
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  align-items: center;
+  transition: all 0.5s;
+  font-weight: bolder;
+  color: black;
+}
+.image {
+  width: 450px;
+  height: 400px;
+
+  margin-bottom: 50px;
+}
+span,
+h2 {
+  color: rgb(44, 108, 108);
+}
+.componentsButtons {
+  width: 200px;
+  justify-content: space-between;
+}
+/*review*/
+.card_review {
+  width: 300px;
+}
+.review {
+  width: 85vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  img {
+    width: 290px;
+  }
+
+  font-weight: 100;
+}
+.review_list {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+.review_card {
+  margin-bottom: 15px;
+}
